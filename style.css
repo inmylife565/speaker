@@ -1,10 +1,15 @@
 body {
-  margin-left: 20px;
+  margin: 0 30px;
+}
+
+.contents {
+  width: 95%;
 }
 
 h1 {
   font-family: "Nunito", sans-serif;
   font-size: 30px;
+  border-bottom: 1px solid #a9a9a9;
 }
 
 #p1 {
@@ -12,7 +17,7 @@ h1 {
 }
 
 #speechExecute {
-  margin-top: 10px;
+  margin-top: 8px;
   font-weight: bold;
   background: green;
   color: #fff;
@@ -20,6 +25,12 @@ h1 {
   font-size: 18px;
   margin-right: 10px;
   padding: 3px 8px;
+  border-radius: 8px;
+}
+
+#speechExecute:hover {
+  cursor: pointer;
+  opacity: .7;
 }
 
 #reload {
@@ -29,10 +40,20 @@ h1 {
   background: #fff;
 }
 
-#message {
-  width: 90%;
+#reload:hover {
+  cursor: pointer;
+  background: #e9e9e9;
+}
+
+#msg {
+  width: 100%;
   border-top: 5px solid #a9a9a9;
   border-left: 5px solid #a9a9a9;
-  font-size: 15px;
+  font-size: 18px;
   padding: 5px;
+}
+
+#inputlength {
+  font-size: 15px;
+  margin: 1px 0;
 }
